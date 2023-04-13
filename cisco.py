@@ -33,7 +33,6 @@ class Cisco(object):
 		self.session = requests.Session()
 		self.session.trust_env = False
 		proxies = {
-			'http':'http://PITC-Zscaler-Americas-Cincinnati3PR.proxy.corporate.ge.com:80'
 		}
 		self.session.proxies = proxies
 		
